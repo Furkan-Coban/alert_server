@@ -8,7 +8,7 @@ app = FastAPI(title="Alert Server")
 
 class Alert(BaseModel):
   camera_id: str
-  track_id: str
+  track_id: int
   class_name: str
   event_type: str
 
